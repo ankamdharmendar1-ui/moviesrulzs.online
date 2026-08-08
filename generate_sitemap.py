@@ -3,8 +3,8 @@ import os
 from datetime import datetime
 
 base_url = "https://movierulzs.online"
-index_path = "c:/Users/DHARMENDAR/OneDrive/Desktop/movierulzs.online/index.html"
-sitemap_path = "c:/Users/DHARMENDAR/OneDrive/Desktop/movierulzs.online/sitemap.xml"
+index_path = "index.html"
+sitemap_path = "sitemap.xml"
 
 with open(index_path, 'r', encoding='utf-8') as f:
     content = f.read()
